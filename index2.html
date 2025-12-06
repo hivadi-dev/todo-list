@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body  class="bg-[#DEDEDE] min-h-screen">
+<body  class="bg-[#DEDEDE] ">
 
   <div class="flex px-12 h-[100px]  ">
     <div class="hidden lg:flex lg:w-1/4  gap-16 justify-start items-center">
@@ -26,7 +26,7 @@
     <div class="hidden lg:flex w-1/4 justify-end items-center"><span id="toggle" class="text-[30px]"><i class="ri-moon-line"></i></span></div>
   </div>
 
-  <div class="w-full flex flex-col h-[400px] lg:flex-row gap-10  px-12">
+  <div class="w-full flex flex-col h-auto lg:flex-row gap-10  px-12">
 
     <div class="flex flex-col pt-10 w-full min-h-[400px] gap-10 ">
       <div class="w-full h-10 flex justify-between bg-[#4EB5F2]  rounded-3xl">
@@ -34,8 +34,10 @@
         <button class="text-[16px] lg:text-[20px] text-[#0000008c] bg-[#DEDEDE] px-4 py-2 rounded-3xl hover:bg-[#185ABD] hover:text-white duration-200">add </button>
       </div>
       <div class="w-full h-[400px] bg-[#F56262] flex justify-center items-center rounded-3xl ">
-        <div class="w-[350px]  md:w-[650px] lg:w-[500px] h-60 bg-[#DEDEDE]  rounded-3xl ">
+        <div class="w-[350px]  md:w-[650px] lg:w-[500px] h-80 bg-[#DEDEDE]  rounded-3xl ">
           <ul id="do" class="w-full h-full rounded-3xl ">
+            <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
+            <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
@@ -49,15 +51,17 @@
     </div>
 
     <div class="flex flex-col pt-10 w-full min-h-[400px] gap-10">
-      <div class="w-full flex justify-center h-14 text-[20px] text-[#0000008c] ps-5 tracking-widest pt-1 bg-[#4EB5F2] rounded-3xl ">Completed Task</div>
+      <div class="w-full flex justify-center h-10 text-[20px] text-[#0000008c] ps-5 tracking-widest pt-1 bg-[#4EB5F2] rounded-3xl ">Completed Task</div>
       <div class="w-full h-[400px] bg-[#00A099] flex justify-center items-center relative rounded-3xl">
-        <!-- <img class="absolute w-[100px] h-[100px] right-0 top-0" src="image/sonne_16.gif" alt=""> -->
-        <div class="w-[350px] md:w-[650px] lg:w-[500px] h-60 bg-[#DEDEDE] rounded-3xl">
+       
+        <div class="w-[350px] md:w-[650px] lg:w-[500px] h-80 bg-[#DEDEDE] rounded-3xl">
           <ul id="done" class="w-full h-full rounded-3xl ">
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black"></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black"></li>
+            <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
+            <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black "></li>
             <li class="w-full h-10 border-b border-b-gray-100 flex items-center px-3 line dark:text-black"></li>
             <li class="w-full h-10  flex items-center px-3 line dark:text-black  "></li>
           </ul>
@@ -83,7 +87,7 @@
         hivadi.dev
         </a>
         
-        <a href="mailto:dargazanihiva@gmail.com" class="flex items-center gap-2 ps-35 md:ps-0 hover:text-[#E75438]">
+        <a href="mailto:dargazanihiva@gmail.com" class="flex items-center gap-2 ps-32 md:ps-0 hover:text-[#E75438]">
             
             <svg xmlns="http://www.w3.org/2000/svg"  class="w-8 h-8"viewBox="0 0 24 24" fill="currentColor"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM12.0606 11.6829L5.64722 6.2377L4.35278 7.7623L12.0731 14.3171L19.6544 7.75616L18.3456 6.24384L12.0606 11.6829Z"></path></svg>
         dargazanihiva@gmail.com
@@ -93,5 +97,6 @@
 
 </body>
 <script src="script.js"></script>
+
 
 </html>
